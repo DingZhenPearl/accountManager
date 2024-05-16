@@ -1,0 +1,29 @@
+
+.userinfo-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFF;
+        padding: 1.25rem;
+}
+.userinfo-avatar-container {
+        text-align: center;
+}
+.userinfo-avatar {
+        width: 3.125rem;
+        height: 3.125rem;
+        border-radius: 50%;
+}
+.userinfo-username {
+        font-size: 0.875rem;
+        margin-top: 0.625rem;
+}
+.login-button-container {
+        flex-grow: 1;
+        text-align: right;
+}
+.login-button {
+        background-color: #007aff;
+        color: #ffffff;
+        margin-top: 0; /* 添加一些间距 */
+}

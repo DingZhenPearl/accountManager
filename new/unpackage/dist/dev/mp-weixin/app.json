@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/aiDegrade/aiDegrade",
+    "pages/graph/graph",
+    "pages/user/user",
+    "pages/functions/functions",
+    "pages/prizeComparison/prizeComparison",
+    "pages/aiBudget/aiBudget"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#717171",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/left1.png",
+        "selectedIconPath": "static/left1.png",
+        "text": "明细"
+      },
+      {
+        "pagePath": "pages/graph/graph",
+        "iconPath": "static/left2.png",
+        "selectedIconPath": "static/left2.png",
+        "text": "图表"
+      },
+      {
+        "pagePath": "pages/functions/functions",
+        "iconPath": "static/right2.png",
+        "selectedIconPath": "static/right2.png",
+        "text": "功能"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/right1.png",
+        "selectedIconPath": "static/right1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

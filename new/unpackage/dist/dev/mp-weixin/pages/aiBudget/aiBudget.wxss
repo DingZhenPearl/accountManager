@@ -1,0 +1,64 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.chat-history {
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.message-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.avatar_user{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: auto; /* 将 margin-right 改为 margin-left */
+}
+.avatar_assistant {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: auto;
+}
+.bubble {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  display: inline-block;
+  word-wrap: break-word;
+  max-width: 70%;
+  -webkit-user-select: text;
+          user-select: text;
+}
+.user {
+  justify-content: flex-end;
+}
+.user .bubble {
+  background-color: #DCF8C5; /* 用户消息气泡背景色 */
+  color: black;
+  margin-right: 10px; /* 保持与边框有一定的距离 */
+  text-align: right; /* 将文字内容右对齐 */
+}
+.assistant {
+  justify-content: flex-start;
+}
+.assistant .bubble {
+  background-color: #E8E8E8; /* AI消息气泡背景色 */
+  color: black;
+  margin-left: 10px; /* 保持与边框有一定的距离 */
+    text-align: left; /* 将文字内容右对齐 */
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}

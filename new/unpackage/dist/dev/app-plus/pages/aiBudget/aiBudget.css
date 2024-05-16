@@ -1,0 +1,61 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.chat-history {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.message-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.user {
+  justify-content: flex-end; /* 确保用户消息气泡从右侧开始 */
+}
+.assistant {
+  justify-content: flex-start; /* 确保AI消息气泡从左侧开始 */
+}
+.avatar {
+  border-radius: 50%;
+  object-fit: cover; /* 防止图片变形 */
+}
+.avatar_user {
+  margin-right: 0px;
+}
+.avatar_assistant {
+  margin-left: 0px;
+}
+.bubble {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  display: inline-block;
+  word-wrap: break-word;
+  max-width: 70%;
+  -webkit-user-select: text;
+          user-select: text;
+}
+.user .bubble {
+  background-color: #DCF8C5; /* 用户消息气泡背景色 */
+  color: black;
+  margin-right: 0px; /* 保持与边框有一定的距离 */
+}
+.assistant .bubble {
+  background-color: #E8E8E8; /* AI消息气泡背景色 */
+  color: black;
+  margin-left: 0px; /* 保持与边框有一定的距离 */
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+

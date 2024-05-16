@@ -1,0 +1,1 @@
+<view><button bindtap="{{a}}">ai消费降级</button><button bindtap="{{b}}">ai预算</button><button bindtap="{{c}}">比价</button></view>
